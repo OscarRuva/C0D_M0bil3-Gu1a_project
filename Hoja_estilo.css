@@ -1,0 +1,193 @@
+ 
+body{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  background: black;
+  align-items: center;
+}
+.navegacion{
+  width: 800px;
+  margin: 5px auto;
+  background-color: gold;
+  background: black;
+}
+.ul{
+  list-style: none;
+}
+.menu > li{
+  position: relative;
+  display: inline-block;
+}
+.menu > li > a{
+  display: block;
+  padding: 15px 100px;
+  color: goldenrod;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+.menu li a:hover{
+  color: white;
+  transition: all .3s;
+}
+/*Submenu*/
+.Submenu{
+  position: absolute;
+  background: black;
+  width: 130%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+.Submenu li a{
+  display: block;
+  padding: 10px ;
+  color: goldenrod;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+}
+.menu li:hover .Submenu{
+  visibility: visible;
+  opacity: 1;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+    font-size: 50px;
+  color: gold;
+  text-align: center;
+}
+h2 {
+    font-size: 40px;
+    color: goldenrod;
+}
+h3 {
+  font-size: 30px;
+  color: goldenrod;
+}
+h4 {
+  font-size: 28px;
+  color: goldenrod;
+}
+
+p {
+  font-family: whi;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: justify;
+}
+footer {
+  color: aliceblue;
+  font-size: 20;
+}
+aside {
+  font-size: 20px;
+  color: aqua;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    display: flex;
+    float: right;
+  border-radius: 30%;}
+  .fa-instagram {
+background: goldenrod;
+color: white;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+div#general {
+  margin: auto;
+  margin-top: 0px;
+  width: 1270px;
+  height: auto;
+}
+div#header {
+  margin: 0%;
+  margin-top: 0%;
+  height: auto;
+  width: 1270px;
+  top: 0%;
+  background-size: 2px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: fixed;
+  background-color: black;
+}
+div#header img{
+  position: relative;
+  margin: 0%;
+  margin-top: 0%;
+  display: flex;
+  position: fixed;
+  width: 60px;
+  height: 60px;
+}
+div#section {
+  margin: auto;
+  margin-top: 100px;
+  width: 970px;
+  float: left;
+}
+div#aside {
+  margin: 0%;
+  margin-top: 70px;
+  width: 270px;
+  min-height: auto;
+  position: fixed;
+  float: right;
+  right: 20px;
+  background: black;
+  background-position: center;
+}
+div#aside p{
+  font-size: 20px;
+  color:gold;
+  text-align: justify;
+}
+div#footer {
+  width: 100%;
+  height: 70px;
+  margin: auto;
+  margin-top: 20px;
+  float: left;
+}
+div#footer p{
+  text-align: center;
+  color: goldenrod;
+  text-transform: uppercase;
+}
+element.style {
+  background-image: url(/content/dam/atvi/callofduty/mobile/home/downloadbanner/download-now-desktop.jpg);
+  visibility: hidden;
+}
+.cod-download-banner .bg {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: inherit;
+}
+.cod-download-banner .desktop-bg {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
